@@ -1,0 +1,195 @@
+﻿body {
+  /* 將此行取消註解可啟用捲動與縮放
+  兩項觸控動作: 操作;
+  */
+}
+
+#website{
+    max-width:1260px;
+    max-height:940px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#EDF2C5;
+}
+
+/*header*/
+
+.isolation{
+    margin-left:160px;
+    margin-right:160px;
+}
+
+#title_text{
+    font-family:'Arial Black','Arial Rounded MT';
+    font-size: 43px;
+    color:#889C5B;
+    margin-top:50px;
+    margin-bottom:10px;
+    float:left;
+}
+
+/*header div{
+    margin-top:61px;
+    margin-bottom:17px;
+    display:inline-block;
+    float:right;
+}*/
+
+.img{
+    margin-top:75px;
+    margin-bottom:17px;
+    margin-right:8px;
+    float:right;
+}
+
+.img_right{
+    margin-top:75px;
+    margin-bottom:17px;
+    padding-right:10px;
+    border-right:1px solid #75874F;
+    float:right;
+}
+
+.icon_left{
+    margin-top:75px;
+    margin-bottom:17px;
+    border:1px solid #75874F;
+    border-radius:3px;
+    background-color:#EDF2C5;
+    font-family:'Arial Black','Arial Rounded MT';
+    font-size:12px; 
+    color:#778A50;
+    padding:3px 9px 3px 9px;
+    margin-left:10px;
+    float:right;
+
+}
+
+.icon{
+    margin-top:75px;
+    margin-bottom:17px;
+    border:1px solid #75874F;
+    border-radius:3px;
+    background-color:#EDF2C5;
+    font-family:'Arial Black','Arial Rounded MT';
+    font-size:12px; 
+    color:#778A50;
+    padding:3px 9px 3px 9px;
+    margin-left:8px;
+    float:right;
+}
+
+/*nav*/
+
+.nav_block{
+    background-color:#889C5B;
+    margin-bottom:20px;
+    border-radius:3px;
+}
+
+ul li{
+    margin-top:16px;
+    margin-bottom:16px;
+    float:left;
+    list-style:none;
+    font-size:16px;
+    font-family:'Arial Black','Arial Rounded MT';
+    color:#EDF2C5;
+    display:inline;
+    margin-right:60px;
+}
+
+
+
+.clear{
+    clear:both;
+}
+
+/*article*/
+
+.word_blockV{
+    max-height:44px;
+    max-width:444px;
+    background-color:#889C5B;
+    padding-top:16px;
+    padding-bottom:16px;
+    border-radius:3px;
+    margin-bottom:17px;
+}
+
+.word_text{
+    font-family:'Arial Black','Arial Rounded MT';
+    font-size:16px;
+    color:#EDF2C5;
+    display:inline;
+    margin-top:16px;
+    margin-bottom:16px;
+    margin-left:31px;
+}
+
+.big_img{
+    margin-bottom:32px;
+}
+
+.small_img{
+    width: 50%;
+    float:left;
+}
+
+article div div img{
+    margin-right:8px;
+}
+
+aside{
+    width: 50%;
+    float:right;
+    font-family:Arial;
+
+}
+
+.word_blockC{
+    font-family:'Arial Black','Arial Rounded MT';
+    max-height:44px;
+    background-color:#889C5B;
+    padding-top:16px;
+    padding-bottom:16px;
+    border-radius:3px;
+    margin-bottom:17px;
+}
+
+.p_block{
+    padding:5px 15px;
+    background-color: #f5f8b9;
+}
+
+.p_bottom{
+    color:#898989;
+    font-size:12px;
+    padding-top:0px;
+    padding-bottom:15px;
+    border-bottom:1px solid ;
+}
+
+p{
+    color:#898989;
+    margin-top:15px;
+    font-size:12px;
+}
+
+/*footer*/
+
+footer>div{
+    margin-top:32px;
+    padding-top:24px;
+    padding-bottom:24px;
+    background-color:#889C5B;
+}
+
+footer>div>p{
+    font-family:'Arial Black','Arial Rounded MT';
+    font-size:12px;
+    color:#EDF2C5;
+    background-color:#889C5B;
+    text-align:center;
+}
+
